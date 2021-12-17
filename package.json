@@ -3,7 +3,7 @@
     "displayName": "TS React Functional Component Snippet",
     "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export.",
     "icon": "images/icon.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "publisher": "RobinBeer",
     "repository": {
