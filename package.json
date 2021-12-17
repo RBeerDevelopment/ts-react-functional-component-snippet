@@ -1,0 +1,25 @@
+{
+    "name": "ts-react-functional-component",
+    "displayName": "TS React Functional Component",
+    "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RBeerDevelopment/ts-react-functional-component-snippet"
+    },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
