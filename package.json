@@ -1,5 +1,5 @@
 {
-    "name": "ts-react-functional-component Snippet",
+    "name": "ts-react-functional-component-snippet",
     "displayName": "TS React Functional Component Snippet",
     "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export.",
     "version": "0.0.1",
