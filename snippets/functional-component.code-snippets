@@ -9,7 +9,7 @@
             "    ${1:propName}: ${2:propType}",
             "}",
             "",
-            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(props: Props): React.Element {",
+            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(props: Props): React.ReactElement {",
             "",
             "    const { $1 } = props;",
             "    return (",
@@ -27,7 +27,7 @@
         "body": [
             "import React from \"react\";",
             "",
-            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(): React.Element {",
+            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(): React.ReactElement {",
             "",
             "    return (",
             "        <React.Fragment>",
