@@ -1,9 +1,9 @@
 {
-    "name": "ts-react-snippets",
+    "name": "ts-react-functional-component-snippet",
     "displayName": "TS React Snippets",
     "description": "Snippets for easily working with React in TypeScript.",
     "icon": "images/icon.png",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "publisher": "RobinBeer",
     "repository": {
