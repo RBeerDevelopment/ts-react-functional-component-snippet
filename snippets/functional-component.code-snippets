@@ -1,0 +1,41 @@
+{
+    "React Functional Component (with props)": {
+        "prefix": "rfcp",
+        "scope": "typescriptreact",
+        "body": [
+            "import React from \"react\";",
+            "",
+            "interface Props {",
+            "    ${1:propName}: ${2:propType}",
+            "}",
+            "",
+            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(props: Props): React.Element {",
+            "",
+            "    const { $1 } = props;",
+            "    return (",
+            "        <React.Fragment>",
+            "           ${3:content}",
+            "        </ React.Fragment>",
+            "    );",
+            "}"
+        ],
+        "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export."
+    },
+    "React Functional Component (without props)": {
+        "prefix": "rfc",
+        "scope": "typescriptreact",
+        "body": [
+            "import React from \"react\";",
+            "",
+            "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(): React.Element {",
+            "",
+            "    return (",
+            "        <React.Fragment>",
+            "           ${1:content}",
+            "        </ React.Fragment>",
+            "    );",
+            "}"
+        ],
+        "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export."
+    }
+}
