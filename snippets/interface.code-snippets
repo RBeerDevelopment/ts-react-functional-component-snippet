@@ -3,9 +3,11 @@
         "prefix": "rint",
         "scope": "typescript",
         "body": [
-            "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}() {",
+            "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} {",
             "",
             "   ${1:property}: ${2: propertyType}",
+            "   ${3}",
+            "",
             "}"
         ],
         "description": "Creates a very basic interface with the name of the file as the interface's name."
@@ -14,9 +16,11 @@
         "prefix": "rinte",
         "scope": "typescript",
         "body": [
-            "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}() {",
+            "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} {",
             "",
             "   ${1:property}: ${2: propertyType}",
+            "   ${3}",
+            "",
             "}"
         ],
         "description": "Creates a very basic interface with the name of the file as the interface's name. The interface is also a named export."

@@ -24,7 +24,7 @@
             }, 
             {
                 "language": "typescript",
-                "path": "./snippets/interfaces/code-snippets"
+                "path": "./snippets/interface.code-snippets"
             }
         ]
     }
