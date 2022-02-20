@@ -37,27 +37,5 @@
             "}"
         ],
         "description": "Creates a very basic React Functional Component with a props interface, destructuring of props and a named export."
-    },
-    "Interface": {
-        "prefix": "rint",
-        "scope": "typescript",
-        "body": [
-            "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}() {",
-            "",
-            "   ${1:property}: ${2: propertyType}",
-            "}"
-        ],
-        "description": "Creates a very basic interface with the name of the file as the interface's name."
-    },
-    "Exported interface": {
-        "prefix": "rinte",
-        "scope": "typescript",
-        "body": [
-            "export interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}() {",
-            "",
-            "   ${1:property}: ${2: propertyType}",
-            "}"
-        ],
-        "description": "Creates a very basic interface with the name of the file as the interface's name. The interface is also a named export."
     }
 }

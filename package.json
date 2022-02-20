@@ -3,7 +3,7 @@
     "displayName": "TS React Snippets",
     "description": "Snippets for easily working with React in TypeScript.",
     "icon": "images/icon.png",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "publisher": "RobinBeer",
     "repository": {
@@ -21,6 +21,10 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/functional-component.code-snippets"
+            }, 
+            {
+                "language": "typescript",
+                "path": "./snippets/interfaces/code-snippets"
             }
         ]
     }
